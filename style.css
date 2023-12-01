@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.appBackground{
+    height: 100vh;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.appCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 650px;
+    width: 350px;
+    background-color: #F2F3F7;
+    box-shadow: -2px -2px 4px 0px #ffffff, 50px 50px 50px 0px rgba(0, 0, 0, .25);
+    border-radius: 40px;
+    padding: 20px 30px;
+}
+.statsBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    box-shadow:  -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.fa-less-than{
+    font-size: 1rem;
+    color: #6D6E74;
+    font-weight: 700;
+}
+h4{
+    color: #222222;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.timeBox{
+    width: 100%;
+    height: 60px;
+    border-radius: 16px;
+    box-shadow:  -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+span:nth-child(1){
+    color: #6D6E74;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+span:nth-child(2){
+    color: #222222;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.fa-greater-than{
+    font-size: 1rem;
+    color: #6D6E74;
+    font-weight: 700;
+}
+
+.outterCircle{
+    height: 230px;
+    width: 230px;
+    box-shadow:  -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    cursor: pointer;
+    
+}
+.line{
+    height: 90%;
+    width: 1.5px;
+    background-color: #067CF8;
+ position: absolute;
+ z-index: 111;
+    
+}
+.line1{
+    transform: rotate(30deg);
+}
+.line2{
+    transform: rotate(60deg);
+}
+.line3{
+    transform: rotate(90deg);
+}
+.line4{
+    transform: rotate(120deg);
+}
+.line5{
+    transform: rotate(150deg);
+}
+.line6{
+    transform: rotate(180deg);
+}
+.innerCircle{
+    height: 180px;
+    width: 180px;
+    box-shadow:  -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
+    background-color: #F2F3F7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 112;
+}
+.fa-temperature-half{
+    color: #067CF8;
+    font-size: 3rem;
+}
+.deg{
+    color: #067CF8;
+    font-size: 2rem;
+}
+.deg span{
+  font-size: 2rem;
+  color: #067CF8;
+}
+.tempIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.coolBox,.warmBox{
+    height: 120px;
+    width: 120px;
+    box-shadow:  -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.fa-snowflake{
+    font-size: 2.2rem;
+    color: #067CF8;
+}
+.fa-fire{
+    color: #FD8A20;
+    font-size: 2.2rem;
+}
+.tempFont{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.settingBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    box-shadow:  -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    cursor: pointer;
+    color:  #067CF8;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
